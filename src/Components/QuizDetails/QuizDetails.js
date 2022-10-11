@@ -24,7 +24,7 @@ const QuizDetails = () => {
         </span>{" "}
         Quiz
       </p>
-      <div className="grid grid-cols-2 gap-10 m-10">
+      <div className="grid grid-cols-1 gap-10 m-20 mx-40">
         {quizDetails.data.questions.map((qustion) => (
           <Qustions
             data={qustion}

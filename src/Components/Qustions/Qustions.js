@@ -30,14 +30,14 @@ const Qustions = ({ data, matchAnswer }) => {
   return (
     <div>
       <div className="border-solid border-black border-2 rounded-md p-3 shadow-lg bg-purple-100">
-        <p className="text-xl text-left flex items-center justify-between">
+        <p className="text-xl flex items-center justify-evenly">
           <span>{question.slice(3, -4)}</span>
           {active ? icon1 : icon2}
         </p>
         <div>
-          {/* {options.map((option) => (
+          {options.map((option) => (
             <div>
-              <div className="border-solid border-2 border-black m-5 rounded-md hover:bg-purple-800 hover:text-white cursor-pointer">
+              <div className="border-solid border-2 border-black m-5 rounded-md hover:bg-purple-800 hover:text-white cursor-pointer ">
                 <p
                   onClick={() => {
                     matchAnswer(option, correctAnswer);
@@ -46,11 +46,6 @@ const Qustions = ({ data, matchAnswer }) => {
                   {option}
                 </p>
               </div>
-            </div>
-          ))} */}
-          {options.forEach((option) => (
-            <div>
-              <p>{option}</p>
             </div>
           ))}
         </div>
