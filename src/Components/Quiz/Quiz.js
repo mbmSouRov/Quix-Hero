@@ -18,7 +18,7 @@ const Quiz = ({ data }) => {
             </p>
 
             <Button>
-              <Link to={`quiz/${id}`}>Start Quiz</Link>
+              <Link to={`/home/quiz/${id}`}>Start Quiz</Link>
             </Button>
           </div>
         </Card>

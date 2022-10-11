@@ -4,7 +4,7 @@ import Qustions from "../Qustions/Qustions";
 
 const QuizDetails = () => {
   const quizDetails = useLoaderData();
-  console.log(quizDetails.data.questions.length);
+  //   console.log(quizDetails.data.questions.length);
   return (
     <div>
       <p>This is quiz details</p>
