@@ -24,7 +24,7 @@ const QuizDetails = () => {
         </span>{" "}
         Quiz
       </p>
-      <div className="grid grid-cols-1 gap-10 m-20 mx-40">
+      <div className="grid grid-cols-1 gap-10 lg:m-20 md:m-10 lg:mx-80 md:mx-20 m-5 mx-5">
         {quizDetails.data.questions.map((qustion) => (
           <Qustions
             data={qustion}
@@ -32,7 +32,7 @@ const QuizDetails = () => {
             matchAnswer={matchAnswer}
           ></Qustions>
         ))}
-        <ToastContainer />;
+        <ToastContainer />
       </div>
     </div>
   );
