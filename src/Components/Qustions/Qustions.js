@@ -37,7 +37,7 @@ const Qustions = ({ data, matchAnswer }) => {
         <div>
           {options.map((option) => (
             <div>
-              <div className="border-solid border-2 border-gray-400 m-6 rounded-lg hover:bg-purple-800 hover:text-white cursor-pointer lg:mx-36 md:mx-16 mx-5">
+              <div className="border-solid border-2 border-gray-400 m-6 rounded-lg hover:bg-purple-800 hover:text-white cursor-pointer lg:mx-12 md:mx-16 mx-5">
                 <p
                   onClick={() => {
                     matchAnswer(option, correctAnswer);
