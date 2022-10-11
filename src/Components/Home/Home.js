@@ -9,7 +9,9 @@ const Home = () => {
     <div>
       <div className="grid grid-cols-4 gap-10 mx-10 mt-10">
         {quizesDetails.data.map((quiz) => (
-          <Quiz data={quiz} key={quiz.id}></Quiz>
+          <Quiz data={quiz} key={quiz.id}>
+            {console.log(quiz.id)}
+          </Quiz>
         ))}
       </div>
     </div>
