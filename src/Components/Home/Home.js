@@ -32,10 +32,16 @@ const Home = () => {
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 lg:mx-10 mx-5 mt-10">
         {quizesDetails.data.map((quiz) => (
-          <Quiz data={quiz} key={quiz.id}>
-            {console.log(quiz.id)}
-          </Quiz>
+          <Quiz data={quiz} key={quiz.id}></Quiz>
         ))}
+      </div>
+
+      <div className="mt-10 font-extralight">
+        <p>
+          Copyright ©2022 MBM Sourov, Quiz Hero.
+          <br />
+          All rights reserved.
+        </p>
       </div>
     </div>
   );
