@@ -5,13 +5,13 @@
 
 
 ## Features
-* [Introduction](#introduction)
+* [Introduction]
 
-* [Features](#features)
+* [Features]
 
-* [Technologies](#technologies)
+* [Technologies]
 
-* [Screenshots](#screenshots)
+* [Screenshots]
 
 
 
