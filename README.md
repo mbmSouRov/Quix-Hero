@@ -4,6 +4,17 @@
 ## Live Website: (https://quiz-hero69.netlify.app/)
 
 
+## Features
+* [Introduction](#introduction)
+
+* [Features](#features)
+
+* [Technologies](#technologies)
+
+* [Screenshots](#screenshots)
+
+
+
 
 In the project directory, you can run:
 
