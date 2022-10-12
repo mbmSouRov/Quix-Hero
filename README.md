@@ -5,13 +5,15 @@
 
 
 ## Features
-* [Introduction]
+* In this project the key feature is React Router and each nav options has their own Route.
 
-* [Features]
+* Each quiz exam will take to another dynamic route and will show dynamic datas based on that quiz topic.
 
-* [Technologies]
+* React toast will pop up for every right and wrong answer.
 
-* [Screenshots]
+* User can know the correct answer by clicking the eye icon on the quiz section.
+
+* This website is fully responsive
 
 
 
